@@ -1,0 +1,170 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100px;
+    background: #445096;
+    display: flex; 
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    z-index: 2000;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.mainLi {
+    margin-right: 30%;
+    position: relative;
+    margin-top: 25px;
+}
+.mainLogoli {
+    float: left;
+    margin-left: 8%;
+}
+ ul {
+    float: right;
+}
+li.main1 {
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding-right: 40px ;
+    color: white;
+    transition: all 1s;
+
+
+}
+li.main1 :hover {
+    color: lightblue;
+}
+
+#imglogo {
+    float: left;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+.img_logo {
+    margin-top: 3px;
+    width: 80px;
+    height:80px;
+}
+
+.body {
+    width: 100%;
+    height: 1200px;
+    background: #ffffff;
+
+}
+.bg {
+    width: 100%;
+    height: 920px;
+    background: url(/img/fon.jpg) no-repeat ;
+    background-size: cover;
+}
+.buttom{
+
+    padding-left: 10%;
+
+    width: 100%;
+    height: 920px;
+    background: url(/img/fon.jpg) no-repeat ;
+    background-size: cover;
+}
+
+#text{
+    font-size: 30px;
+    padding: 0;
+    color: white;
+
+}
+#text1 {
+    font-size: 50px;
+    color: white;
+
+}
+.buttombg {
+    background:  rgba(202, 202, 202, 0.5);
+}
+#buttom {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border:  1px black solid ;
+    padding: 5px;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    transition: all 1s;
+    font-size: 38px;
+
+}
+
+#buttom:hover {
+    background: #ff0000;
+    color: rgb(255, 255, 255);
+}
+
+.navvbottom {
+    padding-top: 200px;
+}
+.frame {
+    float: right;
+    position:relative;
+}
+.iframe_video {
+    width: 500px;
+    height: 300px;
+}
+
+.divv11{
+    display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+}
+li ul {
+    position: absolute; 
+    display: none; 
+    margin-left: 165px;
+    margin-top: -2em; 
+   }
+   li.function a {
+    display: block; 
+    padding: 5px; 
+    text-decoration: none;
+    color: #ffffff; 
+    border: 1px solid #ccc;
+    background-color: #7393ec; 
+    border-bottom: none; 
+   }
+   li a:hover {
+    color: #ffe; 
+    background-color: #5488af; 
+   }
+   li:hover ul {
+    display: block; 
+    
+
+   }
+   .brd {
+    border-bottom: 1px solid #ccc; 
+   }
+   .function {
+    list-style: none;
+   }
+.main1 ul {
+    margin-left: -20px;
+    margin-top: 1px;
+}
